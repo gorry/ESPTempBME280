@@ -33,9 +33,9 @@ ESP8266をWifi経由WWWサーバとして起動し、BME280の値を読み取るテスト。
 
 6. ESP8266を起動すると、シリアルコンソールに取得したIPアドレスが出力される。
 
-7. http://ip-address/ にアクセスし、「Hello from ESP8266!」が表示されることを確認する。
+7. http://[ip-address]/ にアクセスし、「Hello from ESP8266!」が表示されることを確認する。
 
-8. http://ip-address/temp.txt にアクセスし、気温・湿度・気圧が表示されることを確認する。
+8. http://[ip-address]/temp.txt にアクセスし、気温・湿度・気圧が表示されることを確認する。
 
 
 # ライセンス
